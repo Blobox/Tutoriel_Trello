@@ -1,0 +1,267 @@
+/* || GENERAL || */
+html{
+	height: 100%;
+	margin: 0px;
+}
+
+body {
+	position: relative;
+	background:white url("./css/images/Bubblz_accueil_collab_non_deroule.png");
+	background-size:cover;
+	background-repeat:repeat-y;
+	width:100%;
+	height:100%;
+	margin-top: 0px;
+ 	margin-bottom: 0px;
+ 	margin-right: 0px;
+ 	margin-left: 0px;
+}
+
+* {
+	font-family: 'Belleza', sans-serif;
+	color:red;
+}
+
+/* || MENU DE NAVIGATION || */
+/* | Bloc principal (ensemble de l'entête) | */
+.Menu_Nav {
+	width: 100%;
+	height:62px;
+	padding:6px;
+	display: block;
+}
+
+/* | Menu de navigation supérieur (Rechercher ET Mon Compte) | */
+.Partie_1_Nav {
+	display: inline-block;
+	width: 3.25%;
+	height:80%;
+	position: relative;
+ 	color:#007AC0;
+}
+
+.Partie_2_Nav {
+	display: inline-block;
+	width: 10.5%;
+	height:60%;
+	bottom:30px;
+	position: relative;
+  	color:#007AC0;
+}
+
+.Partie_2_Nav .tooltiptext2 {
+  visibility: hidden;
+  width: 200px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.Partie_2_Nav:hover .tooltiptext2 {
+  visibility: visible;
+  text-align: justify-all;
+}
+
+
+/* || MENU CENTRAL || */
+/* | Bloc principal ligne 1 (ensemble de l'entête) | */
+.Menu_Centre_A {
+	display: block;
+	width: 100%;
+	height:120px;
+	padding:6px;	
+}
+
+/* | Blocs des boutons ligne 1 | */
+.Partie_1_Centre {
+	display: inline-block;
+	width: 13%;
+	height:100%;
+	bottom:10px;
+	position: relative;
+  	color:white;
+}
+
+.Partie_2_Centre {
+	display: inline-block;
+	right:150px;
+	width: 10%;
+	height:50%;
+	bottom:75px;
+	position: relative;
+  	color:white;
+}
+
+.Partie_2_Centre:hover {
+	display: inline-block;
+	width: 6%;
+	height:30%;
+	bottom:75px;
+	position: relative;
+  	color:white;
+	border: 1px dotted black;
+}
+
+
+.Partie_2_Centre .tooltiptext10 {
+  visibility: hidden;
+  width: 300px;
+  height:50px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+
+.Partie_2_Centre:hover .tooltiptext10 {
+  visibility: visible;
+  text-align: justify-all;
+ }
+
+
+
+ /* | Bloc principal ligne 2 (ensemble de l'entête) | */
+.Menu_Centre_B {
+	display: block;
+	width: 100%;
+	height:60px;
+	padding:6px;	
+}
+
+/* | Blocs des boutons ligne 2 | */
+.Partie_3_Centre {
+	display: inline-block;
+	width: 13%;
+	height:100%;
+	bottom:10px;
+	position: relative;
+  	color:white;
+}
+
+.Partie_4_Centre {
+	display: inline-block;
+	right:130px;
+	width: 14%;
+	height:75%;
+	bottom:190px;
+  right:175px;
+	position: relative;
+  color:white;
+}
+
+.Partie_4_Centre:hover {
+	display: inline-block;
+	width: 14%;
+	height:75%;
+	bottom:190px;
+  right:175px;
+	position: relative;
+  	color:white;
+	border: 1px dotted black;
+}
+
+
+.Partie_4_Centre .tooltiptext12 {
+  visibility: hidden;
+  width: 300px;
+  height:50px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+
+.Partie_4_Centre:hover .tooltiptext12 {
+  visibility: visible;
+  text-align: justify-all;
+ }
+
+
+
+
+/* | Bloc principal ligne 3 (ensemble de l'entête) | */
+.Menu_Centre_C {
+  display: block;
+  width: 100%;
+  height:180px;
+  padding:6px;  
+}
+
+/* | Blocs des boutons ligne 2 | */
+.Partie_5_Centre {
+  display: inline-block;
+  width: 13%;
+  height:110%;
+  bottom:10px;
+  position: relative;
+    color:white;
+}
+
+.Partie_6_Centre {
+  display: inline-block;
+  right:175px;
+  bottom:335px;
+  width: 27%;
+  height:45.5%;
+  position: relative;
+  color:white;
+}
+
+.Partie_6_Centre:hover {
+  display: inline-block;
+  right:175px;
+  bottom:335px;
+  width: 27%;
+  height:45.5%;
+  position: relative;
+    color:white;
+  border: 1px dotted black;
+}
+
+
+.Partie_6_Centre .tooltiptext13 {
+  visibility: hidden;
+  width: 300px;
+  height:50px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+
+.Partie_6_Centre:hover .tooltiptext13 {
+  visibility: visible;
+  text-align: justify-all;
+ }
+
+
