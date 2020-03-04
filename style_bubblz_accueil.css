@@ -36,38 +36,15 @@ body {
 	display: inline-block;
 	width: 3.25%;
 	height:80%;
-	bottom:10px;
 	position: relative;
  	color:#007AC0;
-}
-
-.Partie_1_Nav .tooltiptext1 {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-  top: 100%;
-  left: 50%;
-  margin-left: -60px;
-}
-
-.Partie_1_Nav:hover .tooltiptext1 {
-  visibility: visible;
-  text-align: justify-all;
 }
 
 .Partie_2_Nav {
 	display: inline-block;
 	width: 10.5%;
-	height:80%;
-	bottom:10px;
+	height:60%;
+	bottom:30px;
 	position: relative;
   	color:#007AC0;
 }
@@ -94,171 +71,6 @@ body {
   text-align: justify-all;
 }
 
-.Partie_3_Nav {
-	display: inline-block;
-	width: 19%;
-	height:80%;
-	bottom:10px;
-	position: relative;
-  	color:#007AC0;
-}
-
-.Partie_3_Nav .tooltiptext3 {
-  visibility: hidden;
-  width: 200px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-  top: 100%;
-  left: 50%;
-  margin-left: -60px;
-}
-
-.Partie_3_Nav:hover .tooltiptext3 {
-  visibility: visible;
-  text-align: justify-all;
-}
-
-.Partie_4_Nav {
-	display: inline-block;
-	width: 50.4%;
-	height:80%;
-	bottom:10px;
-}
-
-.Partie_5_Nav {
-	display: inline-block;
-	width: 3%;
-	height:80%;
-	bottom:10px;
-	position: relative;
-  	color:#007AC0;
-}
-
-.Partie_5_Nav .tooltiptext5 {
-  visibility: hidden;
-  width: 200px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-  top: 100%;
-  left: 50%;
-  margin-left: -60px;
-}
-
-.Partie_5_Nav:hover .tooltiptext5 {
-  visibility: visible;
-  text-align: justify-all;
-}
-
-.Partie_6_Nav {
-	display: inline-block;
-	width: 3.5%;
-	height:80%;
-	bottom:10px;
-	position: relative;
-  	color:#007AC0;
-}
-
-.Partie_6_Nav .tooltiptext6 {
-  visibility: hidden;
-  width: 200px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-  top: 100%;
-  left: 50%;
-  margin-left: -60px;
-}
-
-.Partie_6_Nav:hover .tooltiptext6 {
-  visibility: visible;
-  text-align: justify-all;
-}
-
-
-.Partie_7_Nav {
-	display: inline-block;
-	width: 3.5%;
-	height:80%;
-	bottom:10px;
-	position: relative;
-  	color:#007AC0;
-}
-
-.Partie_7_Nav .tooltiptext7 {
-  visibility: hidden;
-  width: 120px;
-  height:100px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-  top: 100%;
-  left: 50%;
-  margin-left: -60px;
-}
-
-.Partie_7_Nav:hover .tooltiptext7 {
-  visibility: visible;
-  text-align: justify-all;
-}
-
-.Partie_8_Nav {
-	display: inline-block;
-	width: 3%;
-	height:80%;
-	bottom:10px;
-	position: relative;
-  	color:#007AC0;
-}
-
-.Partie_8_Nav .tooltiptext8 {
-  visibility: hidden;
-  width: 120px;
-  height:100px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-  top: 100%;
-  left: 50%;
-  margin-left: -60px;
-}
-
-.Partie_8_Nav:hover .tooltiptext8 {
-  visibility: visible;
-  text-align: justify-all;
- }
-
 
 /* || MENU CENTRAL || */
 /* | Bloc principal ligne 1 (ensemble de l'entête) | */
@@ -281,18 +93,19 @@ body {
 
 .Partie_2_Centre {
 	display: inline-block;
+	right:150px;
 	width: 10%;
 	height:50%;
-	bottom:10px;
+	bottom:75px;
 	position: relative;
   	color:white;
 }
 
 .Partie_2_Centre:hover {
 	display: inline-block;
-	width: 10%;
+	width: 6%;
 	height:30%;
-	bottom:10px;
+	bottom:75px;
 	position: relative;
   	color:white;
 	border: 1px dotted black;
@@ -343,18 +156,19 @@ body {
 
 .Partie_4_Centre {
 	display: inline-block;
+	right:130px;
 	width: 10%;
 	height:50%;
-	bottom:10px;
+	bottom:50px;
 	position: relative;
   	color:white;
 }
 
 .Partie_4_Centre:hover {
 	display: inline-block;
-	width: 10%;
-	height:55%;
-	bottom:10px;
+	width: 16%;
+	height:65%;
+	bottom:55px;
 	position: relative;
   	color:white;
 	border: 1px dotted black;
